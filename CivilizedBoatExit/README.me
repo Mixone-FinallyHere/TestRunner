@@ -31,7 +31,7 @@ Make exit point configurable so that it has higher value to other mods.
 
 ## Git
 
-[Civilized Boat Exit](https://github.com/Mixone-FinallyHere/TestRunner)
+[Civilized Boat Exit](https://github.com/Mixone-FinallyHere/TestRunner/tree/main/CivilizedBoatExit)
 
 ## Contact
 
