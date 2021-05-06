@@ -8,8 +8,8 @@
     <ProjectGuid>{8D23E69F-AA5C-47A4-9DD9-69B358C2D879}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>ValheimModTemplate</RootNamespace>
-    <AssemblyName>ValheimModTemplate</AssemblyName>
+    <RootNamespace>TestRunner</RootNamespace>
+    <AssemblyName>TestRunner</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
@@ -452,7 +452,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ValheimModTemplate.cs" />
+    <Compile Include="TestRunner.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -465,9 +465,9 @@
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
-    <PostBuildEvent>copy "$(TargetDir)ValheimModTemplate.dll" "$(VALHEIM_INSTALL)\BepInEx\plugins\ValheimModTemplate.dll"
-copy "$(TargetDir)ValheimModTemplate.pdb" "$(VALHEIM_INSTALL)\BepInEx\plugins\ValheimModTemplate.pdb"
-copy "$(TargetDir)ValheimModTemplate.dll.config" "$(VALHEIM_INSTALL)\BepInEx\plugins\ValheimModTemplate.dll.config"
+    <PostBuildEvent>copy "$(TargetDir)TestRunner.dll" "$(VALHEIM_INSTALL)\BepInEx\plugins\TestRunner.dll"
+copy "$(TargetDir)TestRunner.pdb" "$(VALHEIM_INSTALL)\BepInEx\plugins\TestRunner.pdb"
+copy "$(TargetDir)TestRunner.dll.config" "$(VALHEIM_INSTALL)\BepInEx\plugins\TestRunner.dll.config"
 </PostBuildEvent>
   </PropertyGroup>
   <Import Project="..\packages\Fody.6.3.0\build\Fody.targets" Condition="Exists('..\packages\Fody.6.3.0\build\Fody.targets')" />
